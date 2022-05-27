@@ -11,7 +11,7 @@ let output = {}
 
 app.use(express.json())
 
-//app.use(cors())
+app.use(cors())
 
 app.use(bodyParser.json({limit: '10000mb'}))
 
